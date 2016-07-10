@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head> 
+        <title>Getting Started: Serving Web Content</title> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <div style="text-align:center">
+            <iframe width="1280" height="720" th:src="'https://www.youtube-nocookie.com/embed/' + ${video} + '?autoplay=1'" frameborder="0" allowfullscreen="1"></iframe>
+            <br/>
+            <a href="../" th:text="${wittyMessage}"> </a>
+        </div>
+    </body>
+</html>
